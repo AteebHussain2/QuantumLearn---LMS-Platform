@@ -58,7 +58,7 @@ export default async function CoursePage({ params }: CoursePageProps) {
                         <div>
                             <div className="flex items-center gap-2 mb-4">
                                 <span className="px-3 py-1 bg-white/10 text-white rounded-full text-sm font-medium backdrop-blur-sm">
-                                    {course.category?.name || "Uncategorized"}
+                                    {course.category?.title || "Uncategorized"}
                                 </span>
                             </div>
                             <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
