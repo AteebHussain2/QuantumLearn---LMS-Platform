@@ -45,7 +45,7 @@ export function CourseCard({ course, progress, href }: CourseCardProps) {
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-60 group-hover:opacity-80 transition-opacity duration-300" />
                     <div className="absolute bottom-4 left-4 right-4 flex items-center justify-between">
                         <span className="text-sm font-medium px-3 py-1 bg-black/50 text-white rounded-full backdrop-blur-sm">
-                            {course.category?.name || "Uncategorized"}
+                            {course.category?.title || "Uncategorized"}
                         </span>
                         {"price" in course && typeof course.price === "number" && (
                             <span className="text-white font-bold px-3 py-1 bg-black/50 dark:bg-white/20 rounded-full backdrop-blur-sm">
