@@ -1,10 +1,10 @@
 "use server";
 
-import stripe from "@/lib/stripe";
-import baseUrl from "@/lib/baseUrl";
+// import stripe from "@/lib/stripe";
+// import baseUrl from "@/lib/baseUrl";
 
 
-import { urlFor } from "@/sanity/lib/image";
+// import { urlFor } from "@/sanity/lib/image";
 import getCourseById from "@/sanity/lib/courses/getCourseById";
 import { createStudentIfNotExists } from "@/sanity/lib/student/createStudentIfNotExists";
 import { clerkClient } from "@clerk/nextjs/server";

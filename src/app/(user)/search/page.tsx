@@ -3,11 +3,11 @@ import { CourseCard } from "@/components/CourseCard";
 import { redirect } from "next/navigation";
 import { Search } from "lucide-react";
 
-interface SearchPageProps {
-    params: Promise<{
-        term: string;
-    }>;
-}
+// interface SearchPageProps {
+//     params: Promise<{
+//         term: string;
+//     }>;
+// }
 
 // export default async function SearchPage({ params }: SearchPageProps) {
 //     const { term } = await params;
